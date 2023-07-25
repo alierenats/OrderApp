@@ -13,6 +13,8 @@
 		077522472A70164C00BD3C2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 077522452A70164C00BD3C2B /* Main.storyboard */; };
 		077522492A70164E00BD3C2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 077522482A70164E00BD3C2B /* Assets.xcassets */; };
 		0775224C2A70164E00BD3C2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0775224A2A70164E00BD3C2B /* LaunchScreen.storyboard */; };
+		077522542A7018F600BD3C2B /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077522532A7018F600BD3C2B /* FoodTableViewCell.swift */; };
+		077522562A701B1800BD3C2B /* Foods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077522552A701B1800BD3C2B /* Foods.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		077522482A70164E00BD3C2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0775224B2A70164E00BD3C2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0775224D2A70164E00BD3C2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		077522532A7018F600BD3C2B /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		077522552A701B1800BD3C2B /* Foods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foods.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				077522482A70164E00BD3C2B /* Assets.xcassets */,
 				0775224A2A70164E00BD3C2B /* LaunchScreen.storyboard */,
 				0775224D2A70164E00BD3C2B /* Info.plist */,
+				077522532A7018F600BD3C2B /* FoodTableViewCell.swift */,
+				077522552A701B1800BD3C2B /* Foods.swift */,
 			);
 			path = OrderApp;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				077522562A701B1800BD3C2B /* Foods.swift in Sources */,
 				077522442A70164C00BD3C2B /* ViewController.swift in Sources */,
+				077522542A7018F600BD3C2B /* FoodTableViewCell.swift in Sources */,
 				077522402A70164C00BD3C2B /* AppDelegate.swift in Sources */,
 				077522422A70164C00BD3C2B /* SceneDelegate.swift in Sources */,
 			);
